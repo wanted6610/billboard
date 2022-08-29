@@ -250,6 +250,8 @@
     &__burger {
       &.active {
         z-index: 1;
+        position: fixed;
+        right: 16px;
       }
       @media screen and (min-width:1140px) {
         display: none;
