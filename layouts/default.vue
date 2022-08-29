@@ -21,6 +21,18 @@ export default {
 
 <style lang="scss">
 
+a.nuxt-link-active {
+  font-weight: 700;
+  position: relative;
+  text-decoration: underline;
+  @media screen and (min-width:1140px) {
+    font-weight: 400;
+    color: $white !important;
+    background: $green;
+    text-decoration: none;
+  }
+}
+
 .content {flex: 1}
 
 .main {
@@ -32,21 +44,6 @@ export default {
 html,body, #__nuxt, #__layout{
   height:100%!important;
   width: 100%!important;
-}
-
-a.nuxt-link-active {
-  font-weight: 600;
-  position: relative;
-  &:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: $purple;
-    bottom: -12px;
-    border-radius: 30px;
-  }
 }
 
 </style>

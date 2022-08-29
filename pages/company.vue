@@ -1,10 +1,14 @@
 <template>
-    $END$
+    <div class="company">
+      <PageTitle title="О компании" />
+    </div>
 </template>
 
 <script>
+    import PageTitle from "~/components/common/PageTitle";
     export default {
-        name: "company"
+        name: "company",
+      components: {PageTitle}
     }
 </script>
 

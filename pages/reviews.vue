@@ -1,10 +1,14 @@
 <template>
-    $END$
+    <div class="reviews">
+      <PageTitle title="Отзывы" />
+    </div>
 </template>
 
 <script>
+    import PageTitle from "~/components/common/PageTitle";
     export default {
-        name: "reviews"
+        name: "reviews",
+      components: {PageTitle}
     }
 </script>
 

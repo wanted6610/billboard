@@ -15,7 +15,7 @@ time, mark, audio, video, input, button {
   padding: 0;
   border: 0;
   font: inherit;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Inter', sans-serif;
   color: #373737;
   vertical-align: baseline;
@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 130%;
+  line-height: 29px;
 }
 ol, ul {
   list-style: none;
@@ -47,4 +47,5 @@ table {
 
 a {
   text-decoration: none;
+  font-size: 20px;
 }
