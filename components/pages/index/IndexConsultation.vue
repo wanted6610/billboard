@@ -109,6 +109,7 @@
   }
   &__title {
     font-size: $medium;
+    font-weight: bold;
   }
   &__side {
     margin-top: 15px;
@@ -116,7 +117,7 @@
 }
 
 .consultation {
-  padding: 30px 0;
+  /*padding: 30px 0;*/
   &__more {
     color: $green;
     text-decoration: underline;

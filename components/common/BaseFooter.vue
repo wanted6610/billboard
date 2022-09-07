@@ -1,4 +1,5 @@
 <template>
+  <div class="footer-wrapper">
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
@@ -30,6 +31,7 @@
         </div>
       </div>
     </footer>
+  </div>
 </template>
 
 <script>
@@ -40,11 +42,14 @@
 
 <style lang="scss" scoped>
 .footer {
+  &-wrapper {
+    border-top: 2px solid $green;
+  }
   max-width: 1512px;
   margin: 0 auto;
   padding: 30px 0;
-  border-top: 2px solid $green;
   width: 100%;
+  position: relative;
   @media screen and (min-width:1140px) {
     padding: 52px 0;
   }
@@ -61,6 +66,7 @@
     &__title {
       font-size: $medium;
       margin-bottom: 14px;
+      font-weight: bold;
     }
     @media screen and (min-width:1140px) {
       max-width: 340px;
@@ -70,6 +76,7 @@
     margin-top: 30px;
     &__title {
       margin-bottom: 14px;
+      font-weight: bold;
     }
     @media screen and (min-width:1140px) {
       max-width: 483px;

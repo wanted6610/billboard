@@ -207,6 +207,7 @@
   &-main {
     min-height: 300px;
     background: url("@/static/header__bg.png");
+    background-position-y: -180px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
